@@ -17,8 +17,7 @@ body {
   font-size: 1.6rem;
   font-family: sans-serif;
   color: #ffffff;
-  background: #001426 url("../img/bg-pattern.png");
-}
+ }
 
 a {
   color: #196a74;
@@ -97,9 +96,9 @@ Main Components
   -o-transform: translateZ(290px);
   transform: translateZ(290px);
 
-    width: 200px;
-  left: 1605px;
-  top: 300px;
+    width: 12%;
+  left: 72%;
+  top: 19%;
 
 }
 .no-touch .cd-floating-background img:nth-child(3) {
@@ -107,24 +106,15 @@ Main Components
   -moz-transform: translateZ(400px);
   -ms-transform: translateZ(400px);
   -o-transform: translateZ(400px);
-  transform: translateZ(400px);
+  transform: translateZ(790px);
    
 
-   width: 900px;
-  top: 300px;
-  left: 800px;
+   width: 50%;
+  top: 26%;
+  left: 40%;
 }
 .no-touch.no-preserve-3d .cd-floating-background {
   /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
   position: relative;
 }
 
-.tie
-{
-
-   -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  transform: rotate(3deg);
-}
