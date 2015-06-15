@@ -1,34 +1,17 @@
-/* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+/* Video Scrlling */
+#videoDiv { 
+  display: block;
+  height: 17500px;
+}
+#videoIntro{
+  position :fixed ;
+  top :0  ;
+  left :0  ;
+  width :100%;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: sans-serif;
-  color: #ffffff;
- }
-
-a {
-  color: #196a74;
-  text-decoration: none;
-}
-
-/* -------------------------------- 
-
-Main Components 
-
--------------------------------- */
+/* Parallax Images*/
 .cd-background-wrapper {
   background-color: #001426;
   position: relative;
@@ -117,4 +100,5 @@ Main Components
   /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
   position: relative;
 }
+
 
